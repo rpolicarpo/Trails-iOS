@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  Trails
+
+  Created by Rui Policarpo on 06/08/16.
+  Copyright © 2016 nExp. All rights reserved.
+*/
+
+"nearby" = "Por perto";
+"leafs" = "Folhas";
+"nature" = "Natureza";
+"map" = "Mapa";
+
+"nearbySubtitle" = "Percursos perto de ti";
+"leafsSubtitle" = "Pontos ganhos";
+"natureSubtitle" = "Sustentabilidade";
+"mapSubtitle" = "Pesquisa no mapa";

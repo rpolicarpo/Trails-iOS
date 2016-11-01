@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="Location" representedClassName="Trails.Location" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="run" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Run" inverseName="locations" inverseEntity="Run" syncable="YES"/>
+    </entity>
+    <entity name="Run" representedClassName="Trails.Run" syncable="YES">
+        <attribute name="distance" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="overlays" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="points" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="trailCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trailName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trailRef" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="locations" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Location" inverseName="run" inverseEntity="Location" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Location" positionX="504" positionY="-9" width="128" height="103"/>
+        <element name="Run" positionX="315" positionY="-9" width="128" height="178"/>
+    </elements>
+</model>

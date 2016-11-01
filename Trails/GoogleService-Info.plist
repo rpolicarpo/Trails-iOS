@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1061608335606-jpcgklt1nkdfehtrfo96u6fk8o6s0qlr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1061608335606-jpcgklt1nkdfehtrfo96u6fk8o6s0qlr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAbXtC8aDDERz7O-Cm7OrXCXeG3wc5SWGs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1061608335606</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>nExp.Trails</string>
+	<key>PROJECT_ID</key>
+	<string>trails-21a06</string>
+	<key>STORAGE_BUCKET</key>
+	<string>trails-21a06.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1061608335606:ios:2f3550c85d203569</string>
+	<key>DATABASE_URL</key>
+	<string>https://trails-21a06.firebaseio.com</string>
+</dict>
+</plist>

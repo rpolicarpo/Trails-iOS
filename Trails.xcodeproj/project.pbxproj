@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EA6B76EC070F9AA0CA9E50 /* Pods_Trails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7615CE3F795C41848A20013D /* Pods_Trails.framework */; };
+		C90B28B71D6260A600E8E20F /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B28B61D6260A600E8E20F /* KMLParser.m */; };
+		C922752E1D4425E7000C1181 /* TrailDetaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922752D1D4425E7000C1181 /* TrailDetaisViewController.swift */; };
+		C92A5F971D566B6C00C54151 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C92A5F991D566B6C00C54151 /* InfoPlist.strings */; };
+		C93F789F1CB19BFE00F03907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F789E1CB19BFE00F03907 /* AppDelegate.swift */; };
+		C93F78A11CB19BFE00F03907 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F78A01CB19BFE00F03907 /* NearbyViewController.swift */; };
+		C93F78A31CB19BFE00F03907 /* LeafsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F78A21CB19BFE00F03907 /* LeafsViewController.swift */; };
+		C93F78A61CB19BFE00F03907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93F78A41CB19BFE00F03907 /* Main.storyboard */; };
+		C93F78A81CB19BFF00F03907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93F78A71CB19BFF00F03907 /* Assets.xcassets */; };
+		C93F78AB1CB19BFF00F03907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93F78A91CB19BFF00F03907 /* LaunchScreen.storyboard */; };
+		C93F78B91CB1A0FB00F03907 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F78B81CB1A0FB00F03907 /* HomeViewController.swift */; };
+		C93F78BB1CB1A13F00F03907 /* NatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F78BA1CB1A13F00F03907 /* NatureViewController.swift */; };
+		C93F78BD1CB1A16100F03907 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F78BC1CB1A16100F03907 /* MapViewController.swift */; };
+		C94BA7EC1CB1CF40003DE030 /* CustomUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94BA7EB1CB1CF40003DE030 /* CustomUITabBarController.swift */; };
+		C96D39761D6B916D00864FBB /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D39751D6B916D00864FBB /* BadgesViewController.swift */; };
+		C9775E731D5D286E0072E737 /* DMtrails.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9775E711D5D286E0072E737 /* DMtrails.xcdatamodeld */; };
+		C9775E751D5F7B3C0072E737 /* PastTrailActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9775E741D5F7B3C0072E737 /* PastTrailActivity.swift */; };
+		C9775E771D5FD7310072E737 /* MulticolorPolylineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9775E761D5FD7310072E737 /* MulticolorPolylineSegment.swift */; };
+		C9775E791D60C19D0072E737 /* Button03.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9775E781D60C19D0072E737 /* Button03.swift */; };
+		C9775E7C1D6166740072E737 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9775E7B1D6166740072E737 /* HistoryViewController.swift */; };
+		C980AA9C1D16DF0100BEF231 /* Button01.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980AA9B1D16DF0100BEF231 /* Button01.swift */; };
+		C980AA9E1D16F6F800BEF231 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980AA9D1D16F6F800BEF231 /* UIConstants.swift */; };
+		C980AAA01D16FF2500BEF231 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C980AA9F1D16FF2500BEF231 /* GoogleService-Info.plist */; };
+		C980AAA21D18B9B900BEF231 /* Button02.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980AAA11D18B9B900BEF231 /* Button02.swift */; };
+		C98CAB3A1D10A2DE006AE929 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CAB391D10A2DE006AE929 /* LoginViewController.swift */; };
+		C9AD43C21D57961D0066CB8A /* NewTrailActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD43C11D57961D0066CB8A /* NewTrailActivity.swift */; };
+		C9AD43C61D5797F90066CB8A /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD43C41D5797F90066CB8A /* Run.swift */; };
+		C9AD43C71D5797F90066CB8A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD43C51D5797F90066CB8A /* Location.swift */; };
+		C9CA43BD1D450A9300118A28 /* TrailDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CA43BC1D450A9300118A28 /* TrailDetailsViewController.xib */; };
+		C9CA43BF1D45524A00118A28 /* TrailCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CA43BE1D45524A00118A28 /* TrailCard.xib */; };
+		C9CA43C11D45525600118A28 /* TrailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CA43C01D45525600118A28 /* TrailCard.swift */; };
+		C9CC28241D7B85BA007E2D86 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC28231D7B85BA007E2D86 /* SurveyViewController.swift */; };
+		C9D4D9A01D696BB10073E492 /* badges.json in Resources */ = {isa = PBXBuildFile; fileRef = C9D4D99F1D696BB10073E492 /* badges.json */; };
+		C9D4D9A21D696BE00073E492 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4D9A11D696BE00073E492 /* Badge.swift */; };
+		C9D4D9AA1D697C3A0073E492 /* BadgeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4D9A91D697C3A0073E492 /* BadgeDetailsViewController.swift */; };
+		C9ECDE1A1D515B9600968F3D /* SingleTrailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ECDE191D515B9600968F3D /* SingleTrailDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13EC295662CE1F2DD6666E40 /* Pods-Trails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trails/Pods-Trails.debug.xcconfig"; sourceTree = "<group>"; };
+		5992866B1853F5CA3D9BE87D /* Pods-Trails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trails/Pods-Trails.release.xcconfig"; sourceTree = "<group>"; };
+		7615CE3F795C41848A20013D /* Pods_Trails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90B28B41D6260A500E8E20F /* Trails-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trails-Bridging-Header.h"; sourceTree = "<group>"; };
+		C90B28B51D6260A600E8E20F /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		C90B28B61D6260A600E8E20F /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
+		C922752D1D4425E7000C1181 /* TrailDetaisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailDetaisViewController.swift; sourceTree = "<group>"; };
+		C92A5F9A1D566B7100C54151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C92A5F9E1D566C4B00C54151 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C93F789B1CB19BFE00F03907 /* Trails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93F789E1CB19BFE00F03907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C93F78A01CB19BFE00F03907 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
+		C93F78A21CB19BFE00F03907 /* LeafsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafsViewController.swift; sourceTree = "<group>"; };
+		C93F78A71CB19BFF00F03907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C93F78AC1CB19BFF00F03907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93F78B81CB1A0FB00F03907 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C93F78BA1CB1A13F00F03907 /* NatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NatureViewController.swift; sourceTree = "<group>"; };
+		C93F78BC1CB1A16100F03907 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C94BA7EB1CB1CF40003DE030 /* CustomUITabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUITabBarController.swift; sourceTree = "<group>"; };
+		C96D39751D6B916D00864FBB /* BadgesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
+		C9775E721D5D286E0072E737 /* DMtrails.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DMtrails.xcdatamodel; sourceTree = "<group>"; };
+		C9775E741D5F7B3C0072E737 /* PastTrailActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastTrailActivity.swift; sourceTree = "<group>"; };
+		C9775E761D5FD7310072E737 /* MulticolorPolylineSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticolorPolylineSegment.swift; sourceTree = "<group>"; };
+		C9775E781D60C19D0072E737 /* Button03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button03.swift; sourceTree = "<group>"; };
+		C9775E7B1D6166740072E737 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		C980AA9B1D16DF0100BEF231 /* Button01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button01.swift; sourceTree = "<group>"; };
+		C980AA9D1D16F6F800BEF231 /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		C980AA9F1D16FF2500BEF231 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C980AAA11D18B9B900BEF231 /* Button02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button02.swift; sourceTree = "<group>"; };
+		C98CAB391D10A2DE006AE929 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C995FDD81D5678AA001FAE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C995FDD91D5678C8001FAE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9AD43C11D57961D0066CB8A /* NewTrailActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTrailActivity.swift; sourceTree = "<group>"; };
+		C9AD43C41D5797F90066CB8A /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		C9AD43C51D5797F90066CB8A /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C9CA43BC1D450A9300118A28 /* TrailDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrailDetailsViewController.xib; sourceTree = "<group>"; };
+		C9CA43BE1D45524A00118A28 /* TrailCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrailCard.xib; sourceTree = "<group>"; };
+		C9CA43C01D45525600118A28 /* TrailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailCard.swift; sourceTree = "<group>"; };
+		C9CC28231D7B85BA007E2D86 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		C9D4D99F1D696BB10073E492 /* badges.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = badges.json; sourceTree = "<group>"; };
+		C9D4D9A11D696BE00073E492 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		C9D4D9A91D697C3A0073E492 /* BadgeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeDetailsViewController.swift; sourceTree = "<group>"; };
+		C9ECDE191D515B9600968F3D /* SingleTrailDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTrailDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C93F78981CB19BFE00F03907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EA6B76EC070F9AA0CA9E50 /* Pods_Trails.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288D3F1C95945F560EA71607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13EC295662CE1F2DD6666E40 /* Pods-Trails.debug.xcconfig */,
+				5992866B1853F5CA3D9BE87D /* Pods-Trails.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C93F78921CB19BFE00F03907 = {
+			isa = PBXGroup;
+			children = (
+				C92A5F991D566B6C00C54151 /* InfoPlist.strings */,
+				C93F789D1CB19BFE00F03907 /* Trails */,
+				C93F789C1CB19BFE00F03907 /* Products */,
+				288D3F1C95945F560EA71607 /* Pods */,
+				F077CCD4861450FEBEE27577 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C93F789C1CB19BFE00F03907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C93F789B1CB19BFE00F03907 /* Trails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93F789D1CB19BFE00F03907 /* Trails */ = {
+			isa = PBXGroup;
+			children = (
+				C9775E7D1D624D7B0072E737 /* Supporting Files */,
+				C980AA9F1D16FF2500BEF231 /* GoogleService-Info.plist */,
+				C93F78AC1CB19BFF00F03907 /* Info.plist */,
+				C93F789E1CB19BFE00F03907 /* AppDelegate.swift */,
+				C94BA7EB1CB1CF40003DE030 /* CustomUITabBarController.swift */,
+				C93F78A71CB19BFF00F03907 /* Assets.xcassets */,
+				C9775E711D5D286E0072E737 /* DMtrails.xcdatamodeld */,
+				C93F78B51CB1A0A200F03907 /* Home */,
+				C93F78A91CB19BFF00F03907 /* LaunchScreen.storyboard */,
+				C93F78B41CB1A09E00F03907 /* Leafs */,
+				C98CAB381D10A2CC006AE929 /* Login */,
+				C93F78A41CB19BFE00F03907 /* Main.storyboard */,
+				C93F78B71CB1A0AC00F03907 /* Map */,
+				C9AD43C31D5797EF0066CB8A /* Models */,
+				C93F78B61CB1A0A600F03907 /* Nature */,
+				C93F78B21CB1A08C00F03907 /* Nearby */,
+				C9775E7A1D6166330072E737 /* TrailActivity */,
+				C980AA9A1D16DEA000BEF231 /* UI Components */,
+			);
+			path = Trails;
+			sourceTree = "<group>";
+		};
+		C93F78B21CB1A08C00F03907 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				C93F78A01CB19BFE00F03907 /* NearbyViewController.swift */,
+			);
+			name = Nearby;
+			sourceTree = "<group>";
+		};
+		C93F78B41CB1A09E00F03907 /* Leafs */ = {
+			isa = PBXGroup;
+			children = (
+				C93F78A21CB19BFE00F03907 /* LeafsViewController.swift */,
+				C9775E7B1D6166740072E737 /* HistoryViewController.swift */,
+				C9D4D9A11D696BE00073E492 /* Badge.swift */,
+				C9D4D9A91D697C3A0073E492 /* BadgeDetailsViewController.swift */,
+				C96D39751D6B916D00864FBB /* BadgesViewController.swift */,
+			);
+			name = Leafs;
+			sourceTree = "<group>";
+		};
+		C93F78B51CB1A0A200F03907 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C93F78B81CB1A0FB00F03907 /* HomeViewController.swift */,
+				C9CC28231D7B85BA007E2D86 /* SurveyViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		C93F78B61CB1A0A600F03907 /* Nature */ = {
+			isa = PBXGroup;
+			children = (
+				C93F78BA1CB1A13F00F03907 /* NatureViewController.swift */,
+			);
+			name = Nature;
+			sourceTree = "<group>";
+		};
+		C93F78B71CB1A0AC00F03907 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C93F78BC1CB1A16100F03907 /* MapViewController.swift */,
+				C9ECDE191D515B9600968F3D /* SingleTrailDetail.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		C9775E7A1D6166330072E737 /* TrailActivity */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD43C11D57961D0066CB8A /* NewTrailActivity.swift */,
+				C9775E741D5F7B3C0072E737 /* PastTrailActivity.swift */,
+			);
+			name = TrailActivity;
+			sourceTree = "<group>";
+		};
+		C9775E7D1D624D7B0072E737 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9D4D99F1D696BB10073E492 /* badges.json */,
+				C90B28B51D6260A600E8E20F /* KMLParser.h */,
+				C90B28B61D6260A600E8E20F /* KMLParser.m */,
+				C90B28B41D6260A500E8E20F /* Trails-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C980AA9A1D16DEA000BEF231 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				C9775E761D5FD7310072E737 /* MulticolorPolylineSegment.swift */,
+				C980AA9B1D16DF0100BEF231 /* Button01.swift */,
+				C980AAA11D18B9B900BEF231 /* Button02.swift */,
+				C9775E781D60C19D0072E737 /* Button03.swift */,
+				C980AA9D1D16F6F800BEF231 /* UIConstants.swift */,
+				C922752D1D4425E7000C1181 /* TrailDetaisViewController.swift */,
+				C9CA43BC1D450A9300118A28 /* TrailDetailsViewController.xib */,
+				C9CA43C01D45525600118A28 /* TrailCard.swift */,
+				C9CA43BE1D45524A00118A28 /* TrailCard.xib */,
+			);
+			name = "UI Components";
+			sourceTree = "<group>";
+		};
+		C98CAB381D10A2CC006AE929 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C98CAB391D10A2DE006AE929 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C9AD43C31D5797EF0066CB8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD43C41D5797F90066CB8A /* Run.swift */,
+				C9AD43C51D5797F90066CB8A /* Location.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F077CCD4861450FEBEE27577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7615CE3F795C41848A20013D /* Pods_Trails.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C93F789A1CB19BFE00F03907 /* Trails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93F78AF1CB19BFF00F03907 /* Build configuration list for PBXNativeTarget "Trails" */;
+			buildPhases = (
+				92AA43758F2E66ED38CD8D36 /* [CP] Check Pods Manifest.lock */,
+				C93F78971CB19BFE00F03907 /* Sources */,
+				C93F78981CB19BFE00F03907 /* Frameworks */,
+				C93F78991CB19BFE00F03907 /* Resources */,
+				DD941944738ADD1186A7EC79 /* [CP] Embed Pods Frameworks */,
+				12B0E4F92FB159B12FBD77C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trails;
+			productName = Trails;
+			productReference = C93F789B1CB19BFE00F03907 /* Trails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C93F78931CB19BFE00F03907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = nExp;
+				TargetAttributes = {
+					C93F789A1CB19BFE00F03907 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = U74ZTJBD6R;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C93F78961CB19BFE00F03907 /* Build configuration list for PBXProject "Trails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-PT",
+			);
+			mainGroup = C93F78921CB19BFE00F03907;
+			productRefGroup = C93F789C1CB19BFE00F03907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93F789A1CB19BFE00F03907 /* Trails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C93F78991CB19BFE00F03907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CA43BF1D45524A00118A28 /* TrailCard.xib in Resources */,
+				C92A5F971D566B6C00C54151 /* InfoPlist.strings in Resources */,
+				C93F78AB1CB19BFF00F03907 /* LaunchScreen.storyboard in Resources */,
+				C980AAA01D16FF2500BEF231 /* GoogleService-Info.plist in Resources */,
+				C93F78A81CB19BFF00F03907 /* Assets.xcassets in Resources */,
+				C9CA43BD1D450A9300118A28 /* TrailDetailsViewController.xib in Resources */,
+				C93F78A61CB19BFE00F03907 /* Main.storyboard in Resources */,
+				C9D4D9A01D696BB10073E492 /* badges.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B0E4F92FB159B12FBD77C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trails/Pods-Trails-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AA43758F2E66ED38CD8D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD941944738ADD1186A7EC79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trails/Pods-Trails-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C93F78971CB19BFE00F03907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94BA7EC1CB1CF40003DE030 /* CustomUITabBarController.swift in Sources */,
+				C9D4D9A21D696BE00073E492 /* Badge.swift in Sources */,
+				C93F78A31CB19BFE00F03907 /* LeafsViewController.swift in Sources */,
+				C93F78BD1CB1A16100F03907 /* MapViewController.swift in Sources */,
+				C9AD43C71D5797F90066CB8A /* Location.swift in Sources */,
+				C90B28B71D6260A600E8E20F /* KMLParser.m in Sources */,
+				C9AD43C21D57961D0066CB8A /* NewTrailActivity.swift in Sources */,
+				C9775E7C1D6166740072E737 /* HistoryViewController.swift in Sources */,
+				C9ECDE1A1D515B9600968F3D /* SingleTrailDetail.swift in Sources */,
+				C9D4D9AA1D697C3A0073E492 /* BadgeDetailsViewController.swift in Sources */,
+				C980AAA21D18B9B900BEF231 /* Button02.swift in Sources */,
+				C93F789F1CB19BFE00F03907 /* AppDelegate.swift in Sources */,
+				C9CA43C11D45525600118A28 /* TrailCard.swift in Sources */,
+				C98CAB3A1D10A2DE006AE929 /* LoginViewController.swift in Sources */,
+				C93F78BB1CB1A13F00F03907 /* NatureViewController.swift in Sources */,
+				C9775E771D5FD7310072E737 /* MulticolorPolylineSegment.swift in Sources */,
+				C9CC28241D7B85BA007E2D86 /* SurveyViewController.swift in Sources */,
+				C922752E1D4425E7000C1181 /* TrailDetaisViewController.swift in Sources */,
+				C980AA9C1D16DF0100BEF231 /* Button01.swift in Sources */,
+				C980AA9E1D16F6F800BEF231 /* UIConstants.swift in Sources */,
+				C9775E791D60C19D0072E737 /* Button03.swift in Sources */,
+				C93F78A11CB19BFE00F03907 /* NearbyViewController.swift in Sources */,
+				C96D39761D6B916D00864FBB /* BadgesViewController.swift in Sources */,
+				C9775E731D5D286E0072E737 /* DMtrails.xcdatamodeld in Sources */,
+				C9775E751D5F7B3C0072E737 /* PastTrailActivity.swift in Sources */,
+				C9AD43C61D5797F90066CB8A /* Run.swift in Sources */,
+				C93F78B91CB1A0FB00F03907 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C92A5F991D566B6C00C54151 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92A5F9A1D566B7100C54151 /* en */,
+				C92A5F9E1D566C4B00C54151 /* pt-PT */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C93F78A41CB19BFE00F03907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C995FDD81D5678AA001FAE9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C93F78A91CB19BFF00F03907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C995FDD91D5678C8001FAE9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C93F78AD1CB19BFF00F03907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C93F78AE1CB19BFF00F03907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C93F78B01CB19BFF00F03907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EC295662CE1F2DD6666E40 /* Pods-Trails.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Trails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nExp.Trilhos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trails/Trails-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C93F78B11CB19BFF00F03907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5992866B1853F5CA3D9BE87D /* Pods-Trails.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Trails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nExp.Trilhos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trails/Trails-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93F78961CB19BFE00F03907 /* Build configuration list for PBXProject "Trails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93F78AD1CB19BFF00F03907 /* Debug */,
+				C93F78AE1CB19BFF00F03907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93F78AF1CB19BFF00F03907 /* Build configuration list for PBXNativeTarget "Trails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93F78B01CB19BFF00F03907 /* Debug */,
+				C93F78B11CB19BFF00F03907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9775E711D5D286E0072E737 /* DMtrails.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9775E721D5D286E0072E737 /* DMtrails.xcdatamodel */,
+			);
+			currentVersion = C9775E721D5D286E0072E737 /* DMtrails.xcdatamodel */;
+			path = DMtrails.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C93F78931CB19BFE00F03907 /* Project object */;
+}

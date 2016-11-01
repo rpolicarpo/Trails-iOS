@@ -1,0 +1,180 @@
+[
+ {
+ "information": "O pinguim imperador é a maior espécie desta ave, com 40 quilos. O pinguim fada, que pesa apenas 1 kg, é o menor entre o gênero.",
+ "space_distance": "0",
+ "name": "Pinguim",
+ "distance": "0",
+ "imageName": "AB_pinguin",
+ "id": "1"
+ },
+ {
+ "information": "O cérebro de um gato é biologicamente mais similar ao de um humano do que o cérebro de um cão. Ambos, humanos e gatos, têm uma região idêntica no cérebro responsável pelas emoções.",
+ "space_distance": "100000",
+ "name": "Gato",
+ "distance": "800",
+ "imageName": "AB_cat_glasses",
+ "id": "2"
+ },
+ {
+ "information": "Esses animais são extremamente ferozes e territoriais e, em alguns casos, podem ser mais perigosos até do que ursos. Como possuem uma visão bastante fraca, eles atacam os possíveis inimigos sem qualquer receio e, com seu peso, dentes afiados e longas presas, podem matar um ser humano facilmente.",
+ "name": "Javali",
+ "distance": "1600",
+ "imageName": "AB_boar",
+ "id": "3"
+ },
+ {
+ "information": "O tempo de gestação é de 90 a 105 dias, nascendo de 2 a 4 crias. As crias do leopardo têm o pelo claro, quase bege e branco, e na fase em que está deixando de mamar, e ainda não aprendeu a caçar bem, um leopardo com fome devora até insetos.",
+ "name": "Pantera",
+ "distance": "2400",
+ "imageName": "AB_panther",
+ "id": "4"
+ },
+ {
+ "information": "Foram estabelecidas, no Canadá, Groenlândia, Noruega e Rússia, reservas onde os ursos podem andar, comer e procriar sem serem perturbados. Como resultado, não só os ursos polares foram salvos da extinção",
+ "name": "Urso",
+ "distance": "3200",
+ "imageName": "AB_bear",
+ "id": "5"
+ },
+ {
+ "information": "O habitat preferido do guaxinim são florestas próximas à água e pântanos. Durante o dia, ele dorme em árvores ocas, buracos em pedras ou no chão. É muito adaptável e hoje é encontrado também em áreas urbanas.",
+ "name": "Guaxinim",
+ "distance": "4000",
+ "imageName": "AB_racoon",
+ "id": "6"
+ },
+ {
+ "information": "A audição é um dos melhores sentidos sensoriais dos cães e permite que eles ouçam sons não audíveis pelos seres humanos. Este diferencial permite aos cães seguirem pista de presas e se comunicarem uns com os outros.",
+ "space_distance": "57623463200",
+ "name": "Pastor alemão",
+ "distance": "4800",
+ "imageName": "AB_german_shepherd",
+ "id": "7"
+ },
+ {
+ "information": "Os gorilas compartilham entre 98% e 99% dos genes com os seres humanos. Assim como os humanos, cada gorila possui uma impressão digital única.",
+ "name": "Gorila",
+ "distance": "5600",
+ "imageName": "AB_gorilla",
+ "id": "8"
+ },
+ {
+ "information": "O touro bravo que hoje conhecemos é o resultado de mais de três séculos de cuidadosa selecção dos ganadeiros (pessoas que criam os touros), que ao longo deste tempo foram selecionando caracteres comportamentais e morfológicos (aspecto) deste animal, numa busca constante pela bravura.",
+ "name": "Touro",
+ "distance": "6400",
+ "imageName": "AB_taurus",
+ "id": "9"
+ },
+ {
+ "information": "Para se pendurar nas árvores, a preguiça utiliza firmes garras, que podem atingir até 10 centímetros, dependendo da espécie. As garras também servem para defesa quando o animal se encontra no chão.",
+ "name": "Preguiça",
+ "distance": "7200",
+ "imageName": "AB_sloth",
+ "id": "10"
+ },
+ {
+ "information": "Os machos têm entre 52 e 65 cm de comprimento e pesam em média 5 kg (máximo 7 kg), enquanto as fêmeas medem entre 48 e 57 cm e pesam cerca de 3,5 kg. O peso dos animais varia sazonalmente.",
+ "name": "Gato selvagem",
+ "distance": "8000",
+ "imageName": "AB_wild_cat",
+ "id": "11"
+ },
+ {
+ "information": "As caracteristicas do Huskys são os olhos de várias cores. São cães robustos de pelagem densa, geralmente com parte inferior branca.",
+ "name": "Husky siberiano",
+ "distance": "8800",
+ "imageName": "AB_siberian_husky",
+ "id": "12"
+ },
+ {
+ "information": "Os primeiros primatas surgiram no final do período Cretáceo, entre 98 e 66 milhões de anos atrás. Eram comedores de insetos e guardavam mais semelhanças com os ratos do que com os representantes atuais.",
+ "name": "Macaco",
+ "distance": "9600",
+ "imageName": "AB_monkey",
+ "id": "13"
+ },
+ {
+ "information": "O tempo de gestação do bezerro até ele nascer é de 9 meses ou 281 dias. A vaca possui 4 tetas que podem produzir até 50 litros por dia.",
+ "name": "Vaca",
+ "distance": "11200",
+ "imageName": "AB_bull",
+ "id": "14"
+ },
+ {
+ "information": "Cangurus recém-nascidos pesam menos de 2 gramas e são do tamanho de um feijão",
+ "name": "Canguru",
+ "distance": "12800",
+ "imageName": "AB_kanguru",
+ "id": "15"
+ },
+ {
+ "information": "Embora sejam da mesma família, o búfalo africano é diferente dos búfalos domesticados, que são criados para corte e produção de leite. Os búfalos domesticados são nativos de outras regiões, como a Índia, as Filipinas e a Itália. O búfalo africano jamais foi domesticado.",
+ "name": "Bufalo",
+ "distance": "14400",
+ "imageName": "AB_bison",
+ "id": "16"
+ },
+ {
+ "information": "As unhas e os dentes dos coelhos não param de crescer.",
+ "name": "Coelho",
+ "distance": "16000",
+ "imageName": "AB_bunny",
+ "id": "17"
+ },
+ {
+ "information": "Existem diversas espécies de rinocerontes, algumas com dois e outras com apenas um chifre. Elas estão distribuídas pela África e Ásia.",
+ "name": "Rinoceronte",
+ "distance": "17700",
+ "imageName": "AB_rhino",
+ "id": "18"
+ },
+ {
+ "information": "Todas as espécies de leopardo estão em perigo de extinção, principalmente pela caça com o objetivo de obter sua pele, de grande valor econômico, utilizada para confecção de vestuário e artigos de couro.",
+ "name": "Leopardo",
+ "distance": "19300",
+ "imageName": "AB_leopard",
+ "id": "19"
+ },
+ {
+ "information": "O nome hipopótamo vem de “hipopotamus” palavra de origem grega que significa cavalo de rio.",
+ "name": "Hipopotamo",
+ "distance": "20900",
+ "imageName": "AB_hippo",
+ "id": "20"
+ },
+ {
+ "information": "Os tigres brancos não são albinos nem são uma subespécie separada, mas sim o resultado de um gene recessivo.",
+ "name": "Tigre",
+ "distance": "22500",
+ "imageName": "AB_tiger",
+ "id": "21"
+ },
+ {
+ "information": "Apenas os machos possuem os chifres, eles poderão medir até 12 cm e fatalmente caem durante o mês de junho voltando a crescer em meados de agosto e setembro.",
+ "name": "Veado",
+ "distance": "24100",
+ "imageName": "AB_deer",
+ "id": "22"
+ },
+ {
+ "information": "Os casais permanecem juntos por toda a vida. Quando um deles morre, o outro procura um novo parceiro.",
+ "name": "Lobo",
+ "distance": "25700",
+ "imageName": "AB_wolf",
+ "id": "23"
+ },
+ {
+ "information": "Entre os elefantes asiáticos, só os machos possuem presas, que são os dentes superiores que ficaram muito grandes. No caso dos elefantes africanos, machos e fêmeas apresentam presas.",
+ "name": "Elefante",
+ "distance": "27300",
+ "imageName": "AB_eleph",
+ "id": "24"
+ },
+ {
+ "information": "É o único animal que consegue alcançar a própria orelha com a língua.",
+ "name": "Girafa",
+ "distance": "28900",
+ "imageName": "AB_girafe",
+ "id": "25"
+ }
+ ]
